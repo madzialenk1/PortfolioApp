@@ -18,7 +18,6 @@
 		9872EA24295A192600239659 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA23295A192500239659 /* ProfileView.swift */; };
 		9872EA2B295A1C1800239659 /* WorkExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA2A295A1C1800239659 /* WorkExperience.swift */; };
 		9872EA2D295A1F2600239659 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA2C295A1F2600239659 /* Constants.swift */; };
-		9872EA30295A280700239659 /* TabPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA2F295A280700239659 /* TabPath.swift */; };
 		9872EA32295B0D0200239659 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA31295B0D0200239659 /* TabItem.swift */; };
 		9872EA34295B0DA200239659 /* TabItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA33295B0DA200239659 /* TabItemData.swift */; };
 		9872EA36295B0E9200239659 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA35295B0E9200239659 /* CustomTabView.swift */; };
@@ -58,7 +57,6 @@
 		9872EA23295A192500239659 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		9872EA2A295A1C1800239659 /* WorkExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperience.swift; sourceTree = "<group>"; };
 		9872EA2C295A1F2600239659 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		9872EA2F295A280700239659 /* TabPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPath.swift; sourceTree = "<group>"; };
 		9872EA31295B0D0200239659 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		9872EA33295B0DA200239659 /* TabItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemData.swift; sourceTree = "<group>"; };
 		9872EA35295B0E9200239659 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
@@ -187,18 +185,9 @@
 		9872EA29295A19F300239659 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				9872EA2E295A27ED00239659 /* Shapes */,
 				9872E9FB295A16EE00239659 /* Assets.xcassets */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		9872EA2E295A27ED00239659 /* Shapes */ = {
-			isa = PBXGroup;
-			children = (
-				9872EA2F295A280700239659 /* TabPath.swift */,
-			);
-			path = Shapes;
 			sourceTree = "<group>";
 		};
 		98FE865A295B31C700E2CC54 /* Tab */ = {
@@ -350,7 +339,6 @@
 				9872EA34295B0DA200239659 /* TabItemData.swift in Sources */,
 				9872E9FA295A16EB00239659 /* MainView.swift in Sources */,
 				9872E9F8295A16EB00239659 /* PortfolioAppApp.swift in Sources */,
-				9872EA30295A280700239659 /* TabPath.swift in Sources */,
 				9872EA36295B0E9200239659 /* CustomTabView.swift in Sources */,
 				9872EA3A295B0F4700239659 /* TabItemView.swift in Sources */,
 				9872EA32295B0D0200239659 /* TabItem.swift in Sources */,
