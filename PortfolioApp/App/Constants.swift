@@ -8,7 +8,14 @@
 import Foundation
 
 struct Constants {
-    static let passionTabBarImageName = "heart.fill"
-    static let workExperienceTabBarImageName = "square.3.layers.3d"
-    static let profileTabBarImageName = "person"
+    struct Text {
+        static let helloStrangerLabel = "Hello Stranger"
+    }
+    
+    struct Image {
+        static let profileHeaderImageName = "profilePhoto"
+        static let passionTabBarImageName = "heart.fill"
+        static let workExperienceTabBarImageName = "square.3.layers.3d"
+        static let profileTabBarImageName = "person"
+    }
 }

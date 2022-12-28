@@ -16,11 +16,11 @@ enum TabItem: Int, CaseIterable {
     var tabItem: TabItemData {
         switch self {
         case .passion:
-            return TabItemData(image: Image(systemName: Constants.passionTabBarImageName))
+            return TabItemData(image: Image(systemName: Constants.Image.passionTabBarImageName))
         case .workExperience:
-            return TabItemData(image: Image(systemName: Constants.workExperienceTabBarImageName))
+            return TabItemData(image: Image(systemName: Constants.Image.workExperienceTabBarImageName))
         case .profile:
-            return TabItemData(image: Image(systemName: Constants.profileTabBarImageName))
+            return TabItemData(image: Image(systemName: Constants.Image.profileTabBarImageName))
         }
     }
 }
