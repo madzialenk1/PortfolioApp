@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9872E9F8295A16EB00239659 /* PortfolioAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872E9F7295A16EB00239659 /* PortfolioAppApp.swift */; };
-		9872E9FA295A16EB00239659 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872E9F9295A16EB00239659 /* ContentView.swift */; };
+		9872E9FA295A16EB00239659 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872E9F9295A16EB00239659 /* MainView.swift */; };
 		9872E9FC295A16EE00239659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9872E9FB295A16EE00239659 /* Assets.xcassets */; };
 		9872E9FF295A16EE00239659 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9872E9FE295A16EE00239659 /* Preview Assets.xcassets */; };
 		9872EA09295A16EE00239659 /* PortfolioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA08295A16EE00239659 /* PortfolioAppTests.swift */; };
 		9872EA13295A16EE00239659 /* PortfolioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA12295A16EE00239659 /* PortfolioAppUITests.swift */; };
 		9872EA15295A16EE00239659 /* PortfolioAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA14295A16EE00239659 /* PortfolioAppUITestsLaunchTests.swift */; };
+		9872EA22295A18FD00239659 /* PassionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA21295A18FD00239659 /* PassionView.swift */; };
+		9872EA24295A192600239659 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA23295A192500239659 /* ProfileView.swift */; };
+		9872EA2B295A1C1800239659 /* WorkExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA2A295A1C1800239659 /* WorkExperience.swift */; };
+		9872EA2D295A1F2600239659 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA2C295A1F2600239659 /* Constants.swift */; };
+		9872EA30295A280700239659 /* TabPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA2F295A280700239659 /* TabPath.swift */; };
+		9872EA32295B0D0200239659 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA31295B0D0200239659 /* TabItem.swift */; };
+		9872EA34295B0DA200239659 /* TabItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA33295B0DA200239659 /* TabItemData.swift */; };
+		9872EA36295B0E9200239659 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA35295B0E9200239659 /* CustomTabView.swift */; };
+		9872EA38295B0F1000239659 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA37295B0F1000239659 /* TabView.swift */; };
+		9872EA3A295B0F4700239659 /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9872EA39295B0F4700239659 /* TabItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,7 @@
 /* Begin PBXFileReference section */
 		9872E9F4295A16EB00239659 /* PortfolioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortfolioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9872E9F7295A16EB00239659 /* PortfolioAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioAppApp.swift; sourceTree = "<group>"; };
-		9872E9F9295A16EB00239659 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9872E9F9295A16EB00239659 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9872E9FB295A16EE00239659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9872E9FE295A16EE00239659 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9872EA04295A16EE00239659 /* PortfolioAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortfolioAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +54,16 @@
 		9872EA0E295A16EE00239659 /* PortfolioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortfolioAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9872EA12295A16EE00239659 /* PortfolioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioAppUITests.swift; sourceTree = "<group>"; };
 		9872EA14295A16EE00239659 /* PortfolioAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9872EA21295A18FD00239659 /* PassionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionView.swift; sourceTree = "<group>"; };
+		9872EA23295A192500239659 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9872EA2A295A1C1800239659 /* WorkExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperience.swift; sourceTree = "<group>"; };
+		9872EA2C295A1F2600239659 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9872EA2F295A280700239659 /* TabPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPath.swift; sourceTree = "<group>"; };
+		9872EA31295B0D0200239659 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		9872EA33295B0DA200239659 /* TabItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemData.swift; sourceTree = "<group>"; };
+		9872EA35295B0E9200239659 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		9872EA37295B0F1000239659 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		9872EA39295B0F4700239659 /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +114,11 @@
 		9872E9F6295A16EB00239659 /* PortfolioApp */ = {
 			isa = PBXGroup;
 			children = (
-				9872E9F7295A16EB00239659 /* PortfolioAppApp.swift */,
-				9872E9F9295A16EB00239659 /* ContentView.swift */,
-				9872E9FB295A16EE00239659 /* Assets.xcassets */,
+				9872EA29295A19F300239659 /* Assets */,
+				9872EA28295A19E600239659 /* App */,
+				9872EA27295A19B300239659 /* Passion */,
+				9872EA26295A199F00239659 /* Profile */,
+				9872EA25295A199200239659 /* WorkExperience */,
 				9872E9FD295A16EE00239659 /* Preview Content */,
 			);
 			path = PortfolioApp;
@@ -125,6 +147,70 @@
 				9872EA14295A16EE00239659 /* PortfolioAppUITestsLaunchTests.swift */,
 			);
 			path = PortfolioAppUITests;
+			sourceTree = "<group>";
+		};
+		9872EA25295A199200239659 /* WorkExperience */ = {
+			isa = PBXGroup;
+			children = (
+				9872EA2A295A1C1800239659 /* WorkExperience.swift */,
+			);
+			path = WorkExperience;
+			sourceTree = "<group>";
+		};
+		9872EA26295A199F00239659 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9872EA23295A192500239659 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9872EA27295A19B300239659 /* Passion */ = {
+			isa = PBXGroup;
+			children = (
+				9872EA21295A18FD00239659 /* PassionView.swift */,
+			);
+			path = Passion;
+			sourceTree = "<group>";
+		};
+		9872EA28295A19E600239659 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				98FE865A295B31C700E2CC54 /* Tab */,
+				9872E9F9295A16EB00239659 /* MainView.swift */,
+				9872E9F7295A16EB00239659 /* PortfolioAppApp.swift */,
+				9872EA2C295A1F2600239659 /* Constants.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9872EA29295A19F300239659 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9872EA2E295A27ED00239659 /* Shapes */,
+				9872E9FB295A16EE00239659 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9872EA2E295A27ED00239659 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				9872EA2F295A280700239659 /* TabPath.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		98FE865A295B31C700E2CC54 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				9872EA35295B0E9200239659 /* CustomTabView.swift */,
+				9872EA39295B0F4700239659 /* TabItemView.swift */,
+				9872EA31295B0D0200239659 /* TabItem.swift */,
+				9872EA33295B0DA200239659 /* TabItemData.swift */,
+				9872EA37295B0F1000239659 /* TabView.swift */,
+			);
+			path = Tab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +343,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9872E9FA295A16EB00239659 /* ContentView.swift in Sources */,
+				9872EA38295B0F1000239659 /* TabView.swift in Sources */,
+				9872EA24295A192600239659 /* ProfileView.swift in Sources */,
+				9872EA2B295A1C1800239659 /* WorkExperience.swift in Sources */,
+				9872EA22295A18FD00239659 /* PassionView.swift in Sources */,
+				9872EA34295B0DA200239659 /* TabItemData.swift in Sources */,
+				9872E9FA295A16EB00239659 /* MainView.swift in Sources */,
 				9872E9F8295A16EB00239659 /* PortfolioAppApp.swift in Sources */,
+				9872EA30295A280700239659 /* TabPath.swift in Sources */,
+				9872EA36295B0E9200239659 /* CustomTabView.swift in Sources */,
+				9872EA3A295B0F4700239659 /* TabItemView.swift in Sources */,
+				9872EA32295B0D0200239659 /* TabItem.swift in Sources */,
+				9872EA2D295A1F2600239659 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
