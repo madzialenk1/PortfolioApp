@@ -9,16 +9,15 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        VStack {
-            HeaderView()
-                .padding(.top, 20)
-            Spacer()
+        ZStack {
+            VStack(spacing: 20) {
+                HeaderView()
+                    .padding(.top, 20)
+                EducationView()
+                LanguageView(languages: Constants.Model.languages)
+                    .padding(.horizontal, 30)
+                Spacer()
+            }
         }
-    }
-}
-
-struct ProfileView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProfileView()
     }
 }

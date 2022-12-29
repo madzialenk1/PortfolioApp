@@ -23,7 +23,7 @@ struct HeaderView: View {
                 .shadow(color: .gray, radius: 5)
                 .padding(.trailing, 25)
         }
-        .frame(width: .infinity, height: 50)
+        .padding(.bottom, 20)
     }
 }
 

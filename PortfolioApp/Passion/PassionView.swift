@@ -12,9 +12,3 @@ struct PassionView: View {
         Text("Not implemented yet!!")
     }
 }
-
-struct PassionView_Previews: PreviewProvider {
-    static var previews: some View {
-        PassionView()
-    }
-}
