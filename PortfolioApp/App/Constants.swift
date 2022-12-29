@@ -18,6 +18,7 @@ struct Constants {
         static let englishLabel = "English"
         static let germanLabel = "German"
         static let spanishLabel = "Spanish"
+        static let activitiesMainLabel = "Activities"
     }
        
     struct Image {
@@ -33,6 +34,7 @@ struct Constants {
         static let educationCellColor = "EducationCell"
         static let languageCellColor = "LanguageCell"
         static let titleGray = "TitleGray"
+        static let activitiesCellColor = "ActivitiesCell"
         
     }
     

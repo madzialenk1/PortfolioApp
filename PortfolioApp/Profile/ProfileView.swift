@@ -16,6 +16,8 @@ struct ProfileView: View {
                 EducationView()
                 LanguageView(languages: Constants.Model.languages)
                     .padding(.horizontal, 30)
+                ActivitiesView()
+                    .padding(.horizontal, 30)
                 Spacer()
             }
         }

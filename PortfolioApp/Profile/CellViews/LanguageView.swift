@@ -21,11 +21,7 @@ struct LanguageView: View {
             }
             .frame(maxWidth: .infinity, alignment: .center)
         }
-        .padding(20)
-        .background(Color(Constants.Color.languageCellColor))
-        .clipShape(RoundedRectangle(
-        cornerRadius: 20))
-        .shadow(color: Color(Constants.Color.languageCellColor), radius: 5)
+        .modifier(ProfileMainCellModifier(color: Constants.Color.languageCellColor))
     }
 }
 

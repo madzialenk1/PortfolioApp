@@ -32,11 +32,7 @@ struct EducationView: View {
                 UniversityCellView(text: Constants.Text.polishUniLabel)
                 UniversityCellView(text: Constants.Text.germanUniLabel)
             }
-            .padding(20)
-            .background(Color(Constants.Color.educationCellColor))
-            .clipShape(RoundedRectangle(
-            cornerRadius: 20))
-            .shadow(color: Color(Constants.Color.educationCellColor), radius: 5)
+            .modifier(ProfileMainCellModifier(color: Constants.Color.educationCellColor))
     }
 }
 

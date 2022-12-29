@@ -29,6 +29,7 @@
 		98FE8673295D973100E2CC54 /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FE8672295D973100E2CC54 /* LanguageView.swift */; };
 		98FE8675295D974900E2CC54 /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FE8674295D974900E2CC54 /* ActivitiesView.swift */; };
 		98FE8678295DC0E200E2CC54 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FE8677295DC0E200E2CC54 /* Language.swift */; };
+		98FE867D295E558200E2CC54 /* ProfileModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FE867C295E558200E2CC54 /* ProfileModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		98FE8672295D973100E2CC54 /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
 		98FE8674295D974900E2CC54 /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesView.swift; sourceTree = "<group>"; };
 		98FE8677295DC0E200E2CC54 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		98FE867C295E558200E2CC54 /* ProfileModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +257,7 @@
 		98FE866D295D96ED00E2CC54 /* CellViews */ = {
 			isa = PBXGroup;
 			children = (
+				98FE867B295E555500E2CC54 /* ViewModifiers */,
 				98FE8670295D972600E2CC54 /* EducationView.swift */,
 				98FE8672295D973100E2CC54 /* LanguageView.swift */,
 				98FE8674295D974900E2CC54 /* ActivitiesView.swift */,
@@ -268,6 +271,14 @@
 				98FE8677295DC0E200E2CC54 /* Language.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		98FE867B295E555500E2CC54 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				98FE867C295E558200E2CC54 /* ProfileModifiers.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,6 +425,7 @@
 				9872EA36295B0E9200239659 /* CustomTabView.swift in Sources */,
 				9872EA3A295B0F4700239659 /* TabItemView.swift in Sources */,
 				98FE8671295D972600E2CC54 /* EducationView.swift in Sources */,
+				98FE867D295E558200E2CC54 /* ProfileModifiers.swift in Sources */,
 				9872EA32295B0D0200239659 /* TabItem.swift in Sources */,
 				9872EA2D295A1F2600239659 /* Constants.swift in Sources */,
 				98FE8675295D974900E2CC54 /* ActivitiesView.swift in Sources */,
